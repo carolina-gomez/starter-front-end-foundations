@@ -16,10 +16,17 @@ header h1 {
   color: white;
   /* Centers the text. */
   text-align: center;
-  /*removes the deafult margin adn spacing
+  /*removes the deafult margin and spacing
   around the h1 element. */
   margin: 0;
   /*Pushes the text down 20 pixels from
   the top of the page*/
   padding-top: 20px;
+}
+
+header nav {
+  /* changes the display property from its default to flex. */
+  display: flex;
+  /* Centers an element defined as 'display: flex'. */
+  justify-content: center;
 }
