@@ -30,3 +30,23 @@ header nav {
   /* Centers an element defined as 'display: flex'. */
   justify-content: center;
 }
+
+header nav ul {
+  /* Changes the display property from its default to flex */
+  display: flex;
+  /*
+  You want the navigation to siaply in a single row. This is
+  the default value for 'display: flex', so you don't need
+  to define its 'flex: direction' in this case.
+  */
+
+  /*
+  Removes the default padding to the left of the unordered list
+  */
+  padding-left: 0;
+  /*
+  Removes the bullet points from the list items within
+  unordered list.
+  */
+  list-style: none;
+}
