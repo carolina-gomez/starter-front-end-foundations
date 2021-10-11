@@ -10,3 +10,16 @@ header {
   to the navigation. */
   margin-bottom: 40px;
 }
+
+header h1 {
+  /* Sets text color to white. */
+  color: white;
+  /* Centers the text. */
+  text-align: center;
+  /*removes the deafult margin adn spacing
+  around the h1 element. */
+  margin: 0;
+  /*Pushes the text down 20 pixels from
+  the top of the page*/
+  padding-top: 20px;
+}
