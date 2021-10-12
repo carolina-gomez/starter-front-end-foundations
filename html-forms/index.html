@@ -16,10 +16,13 @@
     <main>
 
       <form>
+        <fieldset>
+          <legend>Shipping Information</legend>
         <div>
           <label for="name">Full Name:</label>
           <input id="name" type="text" name="name"/>
         </div>
+
         <div>
           <label for="location">Zipcode:</label>
           <input
@@ -31,9 +34,21 @@
             required
             />
         </div>
+      </fieldset>
+        <!-- added text area to the form-->
+        <div>
+          <label for="form-message">Your message:</label>
+          <textarea
+            id="form-message"
+            name="message"
+            required
+            maxlength="200"
+          ></textarea>
+        </div>
+
       </form>
     </main>
-    
+
   </body>
 </html>
 
